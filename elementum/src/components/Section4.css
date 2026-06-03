@@ -80,3 +80,16 @@
     align-self: flex-end;
   }
 }
+
+@media (max-width: 768px) {
+  .offers-title { font-size: 3rem; }
+  .offers-curvy-line { display: none; }
+  .offers-section { padding: 4rem 0; }
+}
+
+@media (max-width: 480px) {
+  .offers-title { font-size: 2.2rem; }
+  .offer-name { font-size: 1.5rem; }
+  .offer-row { padding: 1.5rem 0; }
+  .offer-category { font-size: 0.9rem; padding-right: 0; }
+}

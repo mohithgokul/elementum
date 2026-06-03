@@ -28,9 +28,9 @@
 
 .newsletter-decoration-arrows {
   position: absolute;
-  top: -70px;
+  top: -100px;
   left: 50%;
-  transform: translateX(-50%) translateX(-150px);
+  transform: translateX(-50%) translateX(-180px);
   z-index: 10;
 }
 
@@ -109,4 +109,17 @@
   .newsletter-decoration-arrows {
     display: none;
   }
+  .footer-wrapper {
+    padding-top: 4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .newsletter-title { font-size: 2.2rem; }
+  .newsletter-section { padding-bottom: 3rem; }
+  .purple-semi-circle { 
+    transform: scale(0.6) rotate(-45deg); 
+    right: -80px; 
+  }
+  .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
 }

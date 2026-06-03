@@ -42,4 +42,10 @@
   .header-nav {
     display: none;
   }
+  .header-logo { font-size: 1.8rem; }
+}
+
+@media (max-width: 480px) {
+  .header-logo { font-size: 1.5rem; }
+  .header { padding-top: 1.5rem; padding-bottom: 1.5rem; }
 }

@@ -6,12 +6,14 @@ const Footer = () => {
     <footer className="footer-wrapper">
       <div className="newsletter-section container">
         <div className="newsletter-decoration-arrows">
-          <svg width="250" height="150" viewBox="0 0 250 150" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M 160 0 C 160 60, 100 80, 50 130" stroke="#FF7B89" strokeWidth="2" fill="none" strokeLinecap="round" />
-            <path d="M 35 110 L 50 130 L 70 120" stroke="#FF7B89" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+          <svg width="180" height="140" viewBox="0 0 180 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+            {/* Left arrow curving down */}
+            <path d="M 30 0 C 10 40, 30 80, 60 120" stroke="#FF7B89" strokeWidth="2" fill="none" strokeLinecap="round" />
+            <path d="M 45 105 L 60 120 L 75 108" stroke="#FF7B89" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" />
             
-            <path d="M 230 -20 C 230 50, 170 80, 110 130" stroke="#FF7B89" strokeWidth="2" fill="none" strokeLinecap="round" />
-            <path d="M 95 110 L 110 130 L 130 120" stroke="#FF7B89" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+            {/* Right arrow curving down */}
+            <path d="M 120 0 C 100 40, 120 80, 150 120" stroke="#FF7B89" strokeWidth="2" fill="none" strokeLinecap="round" />
+            <path d="M 135 105 L 150 120 L 165 108" stroke="#FF7B89" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </div>
         
