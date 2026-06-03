@@ -6,9 +6,12 @@ const Hero = () => {
     <section className="hero container fade-in-up">
       {/* Left side decoration lines */}
       <div className="hero-left-lines">
-        <svg width="60" height="200" viewBox="0 0 60 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M 0 0 C 40 50, 40 150, 0 200" stroke="#E0E0E0" strokeWidth="2" fill="none" />
-          <path d="M -20 20 C 20 70, 20 130, -20 180" stroke="#E0E0E0" strokeWidth="2" fill="none" />
+        <svg width="120" height="320" viewBox="0 0 120 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+          {/* Pink wavy line */}
+          <path d="M 0 0 Q 100 75 0 150 Q 100 225 0 300" stroke="#FF7B89" strokeWidth="6" fill="none" strokeLinecap="round" />
+          
+          {/* Black wavy line */}
+          <path d="M 30 20 Q 130 95 30 170 Q 130 245 30 320" stroke="#1E1E1E" strokeWidth="6" fill="none" strokeLinecap="round" />
         </svg>
       </div>
 

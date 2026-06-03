@@ -17,13 +17,13 @@
 
 .hero-right-blob {
   position: absolute;
-  right: 12%;
-  top: 45%;
-  width: 100px;
-  height: 100px;
+  right: 10%;
+  top: 32%;
+  width: 70px;
+  height: 140px;
   background-color: #8B5CF6;
-  border-radius: 100px 0 0 0;
-  transform: rotate(45deg);
+  border-radius: 0 140px 140px 0;
+  transform: rotate(-30deg);
   z-index: 0;
 }
 
