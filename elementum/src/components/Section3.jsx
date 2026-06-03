@@ -3,7 +3,7 @@ import './Section.css';
 
 const Section3 = () => {
   return (
-    <section className="split-section reverse container">
+    <section className="split-section reverse container fade-in-up delay-3">
       <div className="split-content">
         <h2 className="section-title display-font">
           <span className="highlight-mint">See</span> how we can<br />

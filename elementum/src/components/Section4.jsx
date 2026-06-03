@@ -3,7 +3,7 @@ import './Section4.css';
 
 const Section4 = () => {
   return (
-    <section className="offers-section container">
+    <section className="offers-section container fade-in-up">
       <div className="offers-title-wrapper">
         <h2 className="offers-title display-font">
           What we <span className="highlight-mint">can</span><br />

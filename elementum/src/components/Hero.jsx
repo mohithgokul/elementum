@@ -3,12 +3,12 @@ import './Hero.css';
 
 const Hero = () => {
   return (
-    <section className="hero container">
+    <section className="hero container fade-in-up">
       {/* Left side decoration lines */}
       <div className="hero-left-lines">
-        <svg width="60" height="150" viewBox="0 0 60 150" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M60 10C30 20 10 50 10 80C10 110 30 140 60 150" stroke="#FCA5A5" strokeWidth="4" />
-          <path d="M50 0C10 20 -10 60 5 100C20 140 40 130 30 170" stroke="#1E1E1E" strokeWidth="4" />
+        <svg width="60" height="200" viewBox="0 0 60 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M 0 0 C 40 50, 40 150, 0 200" stroke="#E0E0E0" strokeWidth="2" fill="none" />
+          <path d="M -20 20 C 20 70, 20 130, -20 180" stroke="#E0E0E0" strokeWidth="2" fill="none" />
         </svg>
       </div>
 
@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="hero-right-blob"></div>
 
       <div className="hero-content">
-        <h1 className="hero-title display-font">
+        <h1 className="hero-title display-font fade-in-up delay-1">
           The <span className="underline-gold">thinkers</span> and<br />
           doers were <span className="highlight-rose">changing</span><br />
           the <span className="highlight-mint">status</span> Quo with

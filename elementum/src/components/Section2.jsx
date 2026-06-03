@@ -3,7 +3,7 @@ import './Section.css';
 
 const Section2 = () => {
   return (
-    <section className="split-section container">
+    <section className="split-section container fade-in-up delay-2">
       <div className="pink-glow-bg"></div>
       
       <div className="split-content">

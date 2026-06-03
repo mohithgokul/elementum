@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer className="footer-wrapper">
+    <footer className="footer-wrapper fade-in-up">
       <div className="newsletter-section container">
         <div className="newsletter-decoration-arrows">
           <svg width="180" height="140" viewBox="0 0 180 140" fill="none" xmlns="http://www.w3.org/2000/svg">
