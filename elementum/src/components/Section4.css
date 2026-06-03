@@ -2,9 +2,23 @@
   padding: 6rem 0;
 }
 
-.offers-title {
-  font-size: 3.5rem;
+.offers-title-wrapper {
+  position: relative;
   margin-bottom: 4rem;
+  z-index: 2;
+}
+
+.offers-title {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.offers-curvy-line {
+  position: absolute;
+  top: -150px;
+  right: -100px;
+  pointer-events: none;
+  z-index: -1;
 }
 
 .offers-table {
@@ -49,22 +63,6 @@
 .offer-row:hover .offer-arrow {
   transform: translateX(10px);
   color: var(--gold-accent);
-}
-
-.confidence-badge {
-  position: absolute;
-  top: -20px;
-  right: -30px;
-  background: var(--rose-light);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.2rem;
-  transform: rotate(15deg);
-  z-index: 2;
 }
 
 @media (max-width: 900px) {

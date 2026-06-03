@@ -29,8 +29,8 @@ const Section2 = () => {
           <div className="rectangle-accent-top"></div>
           <img src="/team_meeting.png" alt="Team meeting" className="circle-img" />
           
-          <svg className="curvy-line-bottom" width="150" height="200" viewBox="0 0 150 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M 120 0 Q 0 100 120 200" stroke="#FF6B6B" strokeWidth="2" fill="none" />
+          <svg className="curvy-line-connector" width="900" height="600" viewBox="0 0 900 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 850 50 C 750 300, 150 0, 0 450" stroke="#FF6B6B" strokeWidth="2" fill="none" />
           </svg>
         </div>
       </div>
