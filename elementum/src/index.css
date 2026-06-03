@@ -50,7 +50,7 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) rotate(-3deg);
   width: 110%;
   height: 120%;
   background-color: var(--mint-light);
@@ -64,7 +64,7 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) rotate(2deg);
   width: 110%;
   height: 120%;
   background-color: var(--rose-light);
@@ -91,34 +91,34 @@ a {
 .underline-gold::after {
   content: '';
   position: absolute;
-  bottom: 0.1em;
-  left: 0;
-  width: 100%;
+  bottom: -0.2em;
+  left: -5%;
+  width: 110%;
   height: 0.15em;
+  background: var(--gold-accent);
+  border-radius: 5px;
+  z-index: -1;
+  transform: rotate(-2deg);
+}
+
+.underline-gold::before {
+  content: '';
+  position: absolute;
+  bottom: -0.4em;
+  left: 0;
+  width: 105%;
+  height: 0.1em;
   background: var(--gold-accent);
   border-radius: 5px;
   z-index: -1;
   transform: rotate(-1deg);
 }
 
-.underline-gold::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 95%;
-  height: 0.1em;
-  background: var(--gold-accent);
-  border-radius: 5px;
-  z-index: -1;
-  transform: rotate(1deg);
-}
-
 /* Display Font */
 .display-font {
-  font-family: var(--font-display);
-  font-weight: 700;
-  line-height: 1.1;
+  font-family: var(--font-body);
+  font-weight: 500;
+  line-height: 1.2;
   letter-spacing: -0.02em;
 }
 

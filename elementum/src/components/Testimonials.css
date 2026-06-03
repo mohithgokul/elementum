@@ -18,38 +18,40 @@
 }
 
 .quote-box {
-  flex: 0 1 600px;
+  flex: 0 1 700px;
   position: relative;
-  padding: 2rem;
+  padding: 4rem 4rem;
   z-index: 2;
+  background-color: #F1F9F3;
+  border-radius: 40px;
 }
 
 .quote-text {
-  font-size: 1.8rem;
-  line-height: 1.4;
-  color: var(--text-main);
+  font-size: 1.3rem;
+  line-height: 1.7;
+  color: #333;
   position: relative;
   z-index: 2;
+  font-weight: 400;
 }
 
 .quote-mark {
   font-family: var(--font-display);
-  font-size: 8rem;
-  color: var(--gold-accent);
-  opacity: 0.3;
+  font-size: 6rem;
+  color: #C1D4C6;
   position: absolute;
   line-height: 1;
   z-index: 1;
 }
 
 .quote-mark.left {
-  top: -40px;
-  left: -20px;
+  top: 2rem;
+  left: 1.5rem;
 }
 
 .quote-mark.right {
-  bottom: -60px;
-  right: -20px;
+  bottom: -1rem;
+  right: 1.5rem;
 }
 
 .avatars-left, .avatars-right {

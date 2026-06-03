@@ -5,28 +5,32 @@ const Footer = () => {
   return (
     <footer className="footer-wrapper">
       <div className="newsletter-section container">
+        <div className="newsletter-decoration-arrows">
+          <svg width="120" height="100" viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M60 10 Q 40 40 20 80" stroke="#FF6B6B" strokeWidth="2" fill="none" />
+            <path d="M10 70 L 20 80 L 30 70" stroke="#FF6B6B" strokeWidth="2" fill="none" />
+            
+            <path d="M110 20 Q 90 50 60 80" stroke="#FF6B6B" strokeWidth="2" fill="none" />
+            <path d="M50 70 L 60 80 L 70 75" stroke="#FF6B6B" strokeWidth="2" fill="none" />
+          </svg>
+        </div>
+        
         <h2 className="newsletter-title display-font">
           Subscribe to<br />our newsletter
         </h2>
-        <div className="newsletter-decoration-arrows">
-          <svg width="60" height="80" viewBox="0 0 60 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M20 0C20 30 10 50 10 70" stroke="#E8A232" strokeWidth="2" strokeDasharray="4 4"/>
-            <path d="M5 60L10 70L20 55" stroke="#E8A232" strokeWidth="2"/>
-            
-            <path d="M50 10C40 40 45 60 30 75" stroke="#E8A232" strokeWidth="2" strokeDasharray="4 4"/>
-            <path d="M25 65L30 75L45 70" stroke="#E8A232" strokeWidth="2"/>
-          </svg>
-        </div>
+        
         <p className="newsletter-subtext body-font">
           To make your stay special and even more memorable
         </p>
         <button className="btn-primary subscribe-btn">Subscribe Now</button>
       </div>
 
+      <div className="footer-divider"></div>
+
       <div className="footer-links-section container">
         <div className="footer-grid">
           <div className="footer-col">
-            <h4 className="footer-heading">Company</h4>
+            <h4 className="footer-heading body-font">Company</h4>
             <ul>
               <li><a href="#home">Home</a></li>
               <li><a href="#studio">Studio</a></li>
@@ -36,7 +40,7 @@ const Footer = () => {
           </div>
           
           <div className="footer-col">
-            <h4 className="footer-heading">Terms & Policies</h4>
+            <h4 className="footer-heading body-font">Terms & Policies</h4>
             <ul>
               <li><a href="#privacy">Privacy Policy</a></li>
               <li><a href="#terms">Terms & Conditions</a></li>
@@ -46,7 +50,7 @@ const Footer = () => {
           </div>
           
           <div className="footer-col">
-            <h4 className="footer-heading">Follow Us</h4>
+            <h4 className="footer-heading body-font">Follow Us</h4>
             <ul>
               <li><a href="#instagram">Instagram</a></li>
               <li><a href="#linkedin">LinkedIn</a></li>
@@ -56,11 +60,11 @@ const Footer = () => {
           </div>
           
           <div className="footer-col">
-            <h4 className="footer-heading">Terms & Policies</h4>
+            <h4 className="footer-heading body-font">Terms & Policies</h4>
             <address className="footer-address">
-              1498a Fluton ste, STE<br />
-              20 Chicago, IL 60607.<br />
-              (123) 456789000<br />
+              1498w Fluton ste, STE<br />
+              2D Chicgo, IL 63867.<br /><br />
+              (123) 456789000<br /><br />
               info@elementum.com
             </address>
           </div>
@@ -71,7 +75,7 @@ const Footer = () => {
         </div>
       </div>
       
-      <div className="purple-blob"></div>
+      <div className="purple-semi-circle"></div>
     </footer>
   );
 };
