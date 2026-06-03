@@ -6,16 +6,16 @@ const Footer = () => {
     <footer className="footer-wrapper">
       <div className="newsletter-section container">
         <div className="newsletter-decoration-arrows">
-          <svg width="120" height="100" viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M60 10 Q 40 40 20 80" stroke="#FF6B6B" strokeWidth="2" fill="none" />
-            <path d="M10 70 L 20 80 L 30 70" stroke="#FF6B6B" strokeWidth="2" fill="none" />
+          <svg width="250" height="150" viewBox="0 0 250 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 160 0 C 160 60, 100 80, 50 130" stroke="#FF7B89" strokeWidth="2" fill="none" strokeLinecap="round" />
+            <path d="M 35 110 L 50 130 L 70 120" stroke="#FF7B89" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" />
             
-            <path d="M110 20 Q 90 50 60 80" stroke="#FF6B6B" strokeWidth="2" fill="none" />
-            <path d="M50 70 L 60 80 L 70 75" stroke="#FF6B6B" strokeWidth="2" fill="none" />
+            <path d="M 230 -20 C 230 50, 170 80, 110 130" stroke="#FF7B89" strokeWidth="2" fill="none" strokeLinecap="round" />
+            <path d="M 95 110 L 110 130 L 130 120" stroke="#FF7B89" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </div>
         
-        <h2 className="newsletter-title display-font">
+        <h2 className="newsletter-title body-font">
           Subscribe to<br />our newsletter
         </h2>
         

@@ -28,9 +28,9 @@
 
 .newsletter-decoration-arrows {
   position: absolute;
-  top: -60px;
+  top: -70px;
   left: 50%;
-  transform: translateX(-50%) translateX(-120px);
+  transform: translateX(-50%) translateX(-150px);
   z-index: 10;
 }
 
@@ -93,12 +93,11 @@
 .purple-semi-circle {
   position: absolute;
   top: 15%;
-  right: -5%;
+  right: -50px;
   width: 250px;
   height: 125px;
   background-color: #9b51e0;
-  border-top-left-radius: 250px;
-  border-top-right-radius: 250px;
+  border-radius: 0 0 250px 250px;
   transform: rotate(-45deg);
   z-index: 1;
 }
