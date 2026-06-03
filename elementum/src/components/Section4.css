@@ -1,0 +1,84 @@
+.offers-section {
+  padding: 6rem 0;
+}
+
+.offers-title {
+  font-size: 3.5rem;
+  margin-bottom: 4rem;
+}
+
+.offers-table {
+  border-top: 1px solid #E0E0E0;
+}
+
+.offer-row {
+  display: flex;
+  align-items: center;
+  padding: 2.5rem 0;
+  border-bottom: 1px solid #E0E0E0;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.offer-row:hover {
+  background-color: rgba(209, 250, 229, 0.2); /* very light mint */
+}
+
+.offer-category {
+  flex: 1;
+  font-size: 1rem;
+  color: #777;
+  padding-right: 2rem;
+}
+
+.offer-name {
+  flex: 2;
+  font-size: 2.2rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.offer-arrow {
+  display: flex;
+  justify-content: flex-end;
+  color: var(--text-main);
+  transition: transform 0.3s;
+}
+
+.offer-row:hover .offer-arrow {
+  transform: translateX(10px);
+  color: var(--gold-accent);
+}
+
+.confidence-badge {
+  position: absolute;
+  top: -20px;
+  right: -30px;
+  background: var(--rose-light);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  transform: rotate(15deg);
+  z-index: 2;
+}
+
+@media (max-width: 900px) {
+  .offer-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .offer-name {
+    font-size: 1.8rem;
+  }
+  
+  .offer-arrow {
+    align-self: flex-end;
+  }
+}
