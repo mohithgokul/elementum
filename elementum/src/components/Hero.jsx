@@ -17,8 +17,8 @@ const Hero = () => {
 
       <div className="hero-content">
         <h1 className="hero-title display-font">
-          <span className="underline-gold">The thinkers and</span><br />
-          <span className="highlight-rose">doers were changing</span><br />
+          The <span className="underline-gold">thinkers</span> and<br />
+          doers were <span className="highlight-rose">changing</span><br />
           the <span className="highlight-mint">status</span> Quo with
         </h1>
         <p className="hero-description body-font">

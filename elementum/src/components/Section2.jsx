@@ -1,26 +1,37 @@
 import React from 'react';
-import { ArrowRight } from 'lucide-react';
 import './Section.css';
 
 const Section2 = () => {
   return (
     <section className="split-section container">
+      <div className="pink-glow-bg"></div>
+      
       <div className="split-content">
         <h2 className="section-title display-font">
-          <span className="underline-gold">Tomorrow should</span><br />
-          <span className="highlight-mint">be better than today</span>
+          <span className="underline-gold">Tomorrow</span> should<br />
+          be better than <span className="highlight-mint">today</span>
         </h2>
         <p className="section-description body-font">
-          We are a team of strategists, designers communicators, researchers. Togeather, we belive that progress only happens when you refuse to play things safe.
+          We are a team of strategists, designers communicators, researchers.<br />
+          Togeather, we belive that progress only happens when you refuse<br />
+          to play things safe.
         </p>
         <a href="#read-more" className="read-more-link">
-          Read more <ArrowRight size={20} />
+          Read more 
+          <svg width="80" height="10" viewBox="0 0 80 10" fill="none" xmlns="http://www.w3.org/2000/svg" style={{marginLeft: '10px'}}>
+            <path d="M0 5H78M78 5L73 0M78 5L73 10" stroke="currentColor" strokeWidth="1"/>
+          </svg>
         </a>
       </div>
+      
       <div className="split-visual">
         <div className="circle-img-wrapper">
-          <div className="triangle-accent-top"></div>
+          <div className="rectangle-accent-top"></div>
           <img src="/team_meeting.png" alt="Team meeting" className="circle-img" />
+          
+          <svg className="curvy-line-bottom" width="150" height="200" viewBox="0 0 150 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 120 0 Q 0 100 120 200" stroke="#FF6B6B" strokeWidth="2" fill="none" />
+          </svg>
         </div>
       </div>
     </section>
